@@ -38,7 +38,7 @@ Elixir.extend('components', function(src, output, options) {
             .pipe(gulp.dest(paths.output.baseDir))
             .pipe(new Elixir.Notification('Components Compiled!'));
     })
-        .watch(paths.src.path);
+        .watch(paths.src.baseDir + '/**/*');
 });
 
 /**
