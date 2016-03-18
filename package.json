@@ -1,0 +1,30 @@
+{
+    "name": "laravel-elixir-components",
+    "version": "0.0.1",
+    "description": "Laravel Elixir compiler for web components.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 0"
+    },
+    "keywords": [
+        "gulp",
+        "laravel",
+        "elixir",
+        "webcomponents",
+        "components"
+    ],
+    "author": "Nicholas Wiersma",
+    "license": "MIT",
+    "homepage": "https://github.com/digitlab/laravel-elixir-components",
+    "bugs": "https://github.com/digitlab/laravel-elixir-components/issues",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/digitlab/laravel-elixir-components"
+    },
+    "dependencies": {
+        "gulp": "^3.8.8",
+        "gulp-flatten": "^0.2.0",
+        "gulp-inline-source": "^2.1.0",
+        "laravel-elixir": "^4.0.0"
+    }
+}
